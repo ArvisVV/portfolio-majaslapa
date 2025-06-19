@@ -145,8 +145,10 @@ nav {
   }
 
   .nav-links {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
   }
 
   .nav-links li a {
